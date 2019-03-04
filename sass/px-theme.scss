@@ -1,0 +1,42 @@
+//
+// component theme variables
+//
+
+@import "px-colors-design/_settings.colors.scss";
+@import "px-typography-design/_base.typography.scss";
+
+
+:root{
+  --px-app-nav-background-color:            $gray10;
+  --px-app-nav-link-text-color:             $white;
+  --px-app-nav-link-selected-color:         $select-blue-pressed;
+  --px-app-nav-link-selected-active-color:  $select-blue-hover;
+  --px-app-nav-link-hover-color:            $gray8;
+  --px-app-nav-link-active-color:           $primary-blue-hover;
+
+
+  --px-font-family: $predix-font-family;
+  --px-tables-th-color: $gray8;
+  --px-tables-th-background-color: $gray1;
+  --px-tables-th-text-align: center;
+  --px-tables-td-color: $black;
+  --px-tables-table-font-family: $predix-font-family;
+
+}
+
+//
+// page theme variables
+//
+
+$px-page-html-background-color: $gray9;
+$px-page-link-color: $gray5;
+$px-page-spine-border-color: $gray8;
+$px-page-spine-text-color: $white;
+$px-page-bold-text-color: $gray3;
+$px-page-card-border-color: $gray3;
+$px-page-card-background-color: $white;
+$px-page-card-text-color: $black;
+$px-page-card-paragraph-text-color: $gray5;
+$px-page-banner-text-color: $gray7;
+$px-page-banner-meatball-color : $gray7;
+$px-page-main-content-area-background-color: $graybg;
